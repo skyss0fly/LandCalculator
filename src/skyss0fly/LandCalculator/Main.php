@@ -26,7 +26,7 @@ use pocketmine\world\Position;
 
 class Main extends PluginBase {
 
-
+private coords $coords;
 
   public function onCommand(CommandSender $sender, Command $command, string $label, array $args): bool {
         if (!$sender instanceof Player) {
